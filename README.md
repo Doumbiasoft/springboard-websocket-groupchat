@@ -339,7 +339,7 @@ class Room {
 
 module.exports = Room;
 ```
-``
+
 ## Design Note
 
 (It may be worthwhile to notice the design here: neither of these is particularly hard-coded to websockets. As long as ChatUser is given a send function it can call to send a response, they’re pretty agnostic. You could re-use these in a plain-HTTP chat system or even a very different domain, like a chat-by-email system.)
